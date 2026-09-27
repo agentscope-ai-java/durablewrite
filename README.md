@@ -110,7 +110,7 @@ model.
 ## Install
 
 ```sh
-go get github.com/__GH_OWNER__/durablewrite
+go get github.com/agentscope-ai-java/durablewrite
 ```
 
 Go 1.27+, standard library only, no runtime dependencies.
@@ -124,7 +124,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/__GH_OWNER__/durablewrite"
+	"github.com/agentscope-ai-java/durablewrite"
 )
 
 func main() {
@@ -255,7 +255,7 @@ Raw output from one of the three runs:
 ```
 goos: darwin
 goarch: arm64
-pkg: github.com/__GH_OWNER__/durablewrite
+pkg: github.com/agentscope-ai-java/durablewrite
 cpu: Apple M5 Pro
 BenchmarkWriteFile_Default-15           	     200	   7127222 ns/op	    1731 B/op	      25 allocs/op
 BenchmarkWriteFile_NoDirSync-15         	     200	   4293502 ns/op	    1483 B/op	      19 allocs/op
@@ -263,7 +263,7 @@ BenchmarkWriteFile_NoSync-15            	     200	    130821 ns/op	    1420 B/op
 BenchmarkWriteFile_FastDarwinSync-15    	     200	   7312160 ns/op	    1729 B/op	      25 allocs/op
 BenchmarkOSWriteFile_NoAtomicity-15     	     200	     53661 ns/op	     360 B/op	       5 allocs/op
 PASS
-ok  	github.com/__GH_OWNER__/durablewrite	4.370s
+ok  	github.com/agentscope-ai-java/durablewrite	4.370s
 ```
 
 Two honest observations from these numbers, not the ones you might expect

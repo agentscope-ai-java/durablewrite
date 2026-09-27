@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"time"
 
-	durablewrite "github.com/__GH_OWNER__/durablewrite"
+	durablewrite "github.com/agentscope-ai-java/durablewrite"
 )
 
 func main() {

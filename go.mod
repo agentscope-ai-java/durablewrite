@@ -1,3 +1,3 @@
-module github.com/__GH_OWNER__/durablewrite
+module github.com/agentscope-ai-java/durablewrite
 
 go 1.27.1
